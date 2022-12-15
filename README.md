@@ -1,6 +1,11 @@
 # Circom circuit for substring
 
-compilation steps:
+## JUST RUN:
+
+`./test.sh`
+
+## Compilation steps (based on snarkjs github readme)
+
 10. Compile the circuit
 circom --r1cs --wasm --sym --json ./circuits/substr.circom
 
